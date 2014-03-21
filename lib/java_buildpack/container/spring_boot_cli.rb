@@ -53,7 +53,7 @@ module JavaBuildpack
           'run',
           relative_groovy_files,
           '--',
-          '--server.port=$PORT'
+          '--server.port $PORT'
         ].flatten.compact.join(' ')
       end
 
